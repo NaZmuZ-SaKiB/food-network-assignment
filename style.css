@@ -4,9 +4,6 @@
     margin: 0;
 }
 /* common styles */
-html{
-    scroll-behavior: smooth;
-}
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -95,6 +92,7 @@ nav h2 a{
 .main-nav li a:hover{
     color: #575757;
 }
+
 /* welcome sections */
 #welcome-section{
     padding: 100px 0;
