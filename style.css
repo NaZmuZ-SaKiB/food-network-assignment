@@ -35,6 +35,12 @@ h2{
 .one-third-width{
     width: 33.3333%;
 }
+.width-thirty{
+    width: 30%;
+}
+.width-seventy{
+    width: 70%;
+}
 .blue-text{
     color: #0489f7;
 }
@@ -79,7 +85,7 @@ nav h2 a{
 }
 .main-nav li{
     display: inline-block;
-    margin-right: 10px; 
+    margin-left: 20px; 
 }
 .main-nav li a{
     text-decoration: none;
@@ -160,10 +166,46 @@ nav h2 a{
     line-height: 30px;
     padding-right: 10px;
 }
+/* contact-section */
+#contact-section{
+    background-image: url('img/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+#contact-section h2{
+    text-align: center;
+}
+#contact-section form{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-item{  
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+.input-item input, textarea{
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid #cecece;
+}
+.input-item textarea{
+    height: 100px;
+}
+#contact-section form .btn{
+    display: inline-block;
+    margin: 30px auto 0;
+    padding: 15px 50px;
+}
+
 /* followers section  */
 .followers-container{
     display: flex;
-    margin: 50px 5%;
+    margin: 100px 5%;
     padding: 50px 0;
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
