@@ -183,7 +183,7 @@ nav h2 a{
 #contact-section form{
     width: 60%;
     margin: 0 auto;
-    text-align: center;
+    text-align: right;
 }
 .input-item{  
     display: flex;
