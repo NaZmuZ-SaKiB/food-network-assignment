@@ -26,7 +26,8 @@ h2{
     margin-bottom: 40px;
 }
 .row{
-    padding: 0 5%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
 }
 .half-width{
@@ -66,15 +67,13 @@ h2{
 /* navigation menu  */
 nav{
     width: 100%;
-    position: fixed;
     background-image: linear-gradient(to right, #14b9fc, #0489f7);
     padding: 10px 150px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-}
-.nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+
 }
 nav h2{
     margin: 0;
@@ -98,11 +97,11 @@ nav h2 a{
 }
 /* welcome sections */
 #welcome-section{
-    padding-top: 60px;
-    margin-bottom: 80px;
+    padding: 100px 0;
 }
 .welcome-texts{
-    margin-top: 200px;
+    margin-top: auto;
+
 }
 .welcome-texts p{
     color: #575757;
@@ -110,7 +109,8 @@ nav h2 a{
     margin-bottom: 40px;
 }
 .welcome-img{
-    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
 }
 .welcome-img img{
     width: 80%;
@@ -122,6 +122,10 @@ nav h2 a{
     background-image: url('img/background1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+#section-aboutme img{
+    display: block;
+    margin: 0 auto;
 }
 .about-texts{
     margin: auto 0;
@@ -142,7 +146,7 @@ nav h2 a{
 }
 .heading-texts p{
     display: inline-block;
-    width: 600px;
+    width: 50%;
     line-height: 25px;
 }
 .card{
@@ -150,12 +154,13 @@ nav h2 a{
     margin: 0 auto;
     padding: 20px;
     padding-bottom: 50px;
-    border-radius: 30px;
+    border-radius: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
 }
 .card img{
     width: 100%;
     margin-bottom: 30px;
+    border-radius: 15px;
 }
 .card-text h2{
     color: #000;
@@ -166,9 +171,10 @@ nav h2 a{
     line-height: 30px;
     padding-right: 10px;
 }
+
 /* contact-section */
 #contact-section{
-    background-image: url('img/background2.jpg');
+    background-image: linear-gradient(to right bottom, #a6e6ff, #b1dcff);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
@@ -203,18 +209,19 @@ nav h2 a{
 }
 
 /* followers section  */
-.followers-container{
+#followers{
+    width: 90%;
+    margin: 50px auto;
     display: flex;
-    margin: 100px 5%;
     padding: 50px 0;
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
 }
-.followers-container h1,
-.followers-container p{
+#followers h1,
+#followers p{
     text-align: center;
 }
-.followers-container h1{
+#followers h1{
     margin-bottom: 20px;
 }
 
